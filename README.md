@@ -1,3 +1,3 @@
 # Projekt EC
 
-Test
+Rapporten ligger under rapport.txt
