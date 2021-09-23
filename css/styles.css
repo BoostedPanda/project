@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs");
+    color: white;
+}
+
+i {
+    filter: drop-shadow(2px 2px 5px white);
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+}
