@@ -1,0 +1,54 @@
+#Html:
+
+
+vad är semantisk HTML?
+	Semantisk HTML är att vi ger våra element ett namn med en betydelse även att förklara innehållet
+
+När änvänder man <article> respektive <section>?
+	<article> kan man återanvända för att den kan man förstå även fast den står själv eller på en annan sida och <section> använder man när man vill definera sektioner i ett dokument som kapitel
+	headers, footers etc
+
+#Responsiv design:
+
+
+vad innebär responsiv design?
+	Det är att man tillåter layouten att förändras beroende på skärmstorlek och skärmupplösning som användaren har.
+
+På vilket sätt kan bilder göras responsiva?
+	Du kan använda till exempel:
+		img{
+			width: 100%;
+			max-width: 450px;
+		}
+
+#Hur webben fungerar:
+
+
+Hur kommunicerar en webbläsare med en webbserver?
+	Adress skrivs in i webbläsaren och du skickar http/https request till webbservern, sedan så svarar webbservern med ett HTML dokument som sedan visas i webbläsaren
+
+Vad är HTTP och hur används detta på webben?
+	HTTP står för "HyperText Transfer Protocol" och det tar hand om kommunikationen mellan klienten och servern.
+
+Vad är en URL? Vad är skillnaden mellan en URL och en URI?
+	URL står för "Uniform Resource Locator" och är en unik adress som tar en till en webbsida. URL används för att länka en webbsida med hjälp av HTTP/HTTPS medans URI (Uniform Resource Identifer)
+	används för att definiera ett objekts identitet, En URL är en URI men en URI kan inte vara en URL. URI änvander inte protokoll
+
+Vad gör en DNS?
+	DNS står för "Domain Name System" är att förenkla adressering, den kopplar ihop domännamn med ip-adresser, DNS-servern letar efter ip-adresser som domännamnet pekar till.
+
+#Sökmotoroptimering:
+
+
+Vad innebär sökmotoroptimering?
+	Det är ett samlingsnamn för alla olika metoder för att synas så högt upp som möjligt i sökmotorer, till exempel att någon söker på någon produkt och dina produkter visas högst upp av sökresultatet.
+	relevant innehåll, använda nyckelord även att använda nyckelord i rubriker (<h1>,<h2>) använda semantisk html.
+
+Vilka faktorer har störst påverkan på indexering av sidan?
+	Hur snabbt sidan laddar in har en stor påverkan och även semantisk html för att få så högt poäng i SEO
+
+#Versionshantering:
+
+
+Varför behöver vi versionshantera HTML/CSS/kod?
+	Så vi kan spåra ändringar som gjordes i tidigare versioner.
